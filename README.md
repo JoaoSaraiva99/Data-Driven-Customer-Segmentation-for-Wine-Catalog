@@ -99,9 +99,13 @@ Taking this into account, we can understand that:
 * Cluster 1 has high values on Principal Component 1 and low values on Principal Component 2. It is characterised by wines with higher flavanoids content, lower od280/od315_of_diluted_wines, and a more intense hue, which may indicate characteristics associated with younger or lower-quality wines, as interpreted by PC1.
 * Cluster 2 has low values on both principal components. It is characterised by wines with high color_intensity and high alcohol content.
 * Cluster 3 has high values on both principal components. It shows medium values of alcohol and color_intensity, according to PC2, and has intermediate characteristics in relation to the variables that are most influential in PC1.
-* 
+
 The sixth stage extended interpretation through complementary techniques. Boxplots and grouped descriptive statistics were used to compare each cluster across the remaining wine variables. Self-Organizing Maps were applied as an additional unsupervised lens to inspect how the selected features distribute spatially across an 8x8 node grid. A decision tree was then trained using variables such as proline, flavanoids, OD280/OD315 of diluted wines, and total phenols to identify which features were most influential in reproducing the cluster assignments. Together, these methods strengthened interpretability and made the final segmentation easier to explain in commercial terms.
 <img width="1920" height="1080" alt="Design sem nome(2)" src="https://github.com/user-attachments/assets/3efbb7c2-69df-4a16-b963-8975f1b40e3a" />
 
 In business terms, the methodology is valuable because it does not stop at technical clustering. It translates raw chemical measurements into commercially meaningful wine profiles and then links those profiles to practical go-to-market actions. To support the interpretation of the more technical results, the ChatGPT API was also used to help explain what these variables and cluster patterns may indicate in terms of wine quality, classification, and commercial positioning. That is why the project is not only a data science exercise, but also a decision-support tool for catalogue marketing, campaign design, and portfolio positioning.
+
+## Iteractive K-Means
+
+https://github.com/user-attachments/assets/77e94dc8-1882-4f70-8e76-a24dc456446a
 
