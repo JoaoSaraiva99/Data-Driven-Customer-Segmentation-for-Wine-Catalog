@@ -86,6 +86,8 @@ The fourth stage was cluster modelling. K-Means was selected as the primary algo
 The fifth stage was validation and interpretation. PCA was used to reduce the five-variable modelling space to two principal components for visual inspection. The PCA loadings show that Principal Component 1 is mainly associated with OD280/OD315 of diluted wines, flavanoids, hue, and color intensity, while Principal Component 2 is driven primarily by alcohol and color intensity. The PCA chart makes the four-group structure easier to interpret visually. In parallel, the silhouette plot suggests a reasonably good cluster structure, with positive values dominating across the four groups.
 
 <img width="819" height="624" alt="imagem" src="https://github.com/user-attachments/assets/d21e4ca6-62af-4e44-a09b-e5ef294a922e" />
+
+
 | Variable                         | PC1       | PC2      |
 |----------------------------------|-----------|----------|
 | flavanoids                       | 0.508309  | 0.283175 |
