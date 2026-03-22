@@ -12,7 +12,10 @@ Insights and recommendations are provided on the following key areas:
   - Data-driven support for marketing decisions
   - Catalogue optimisation through customer-focused promotion
 
-Data Structure Overview - The project is based on a structured wine catalogue containing 178 wines, described through 13 quantitative variables: alcohol, malic acid, ash, alcalinity of ash, magnesium, total phenols, flavanoids, nonflavanoid phenols, proanthocyanins, color intensity, hue, OD280/OD315 of diluted wines, and proline. In practical terms, each row represents one wine and each column captures a measurable chemical characteristic that may help distinguish one wine profile from another.
+Data Structure Overview
+
+The project is based on a structured wine catalogue containing 178 wines, described through 13 quantitative variables: alcohol, malic acid, ash, alcalinity of ash, magnesium, total phenols, flavanoids, nonflavanoid phenols, proanthocyanins, color intensity, hue, OD280/OD315 of diluted wines, and proline. In practical terms, each row represents one wine and each column captures a measurable chemical characteristic that may help distinguish one wine profile from another.
+
 * Alcohol - Amount of alcohol in that specific type of wine.
 * Malic acid - Amount of malic acid in that specific type of wine.
 * Ash - Amount of ash in that specific type of wine.
