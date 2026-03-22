@@ -12,48 +12,21 @@ Insights and recommendations are provided on the following key areas:
   - Data-driven support for marketing decisions
   - Catalogue optimisation through customer-focused promotion
 
-# Data Structure Overview
+Data Structure Overview - The project is based on a structured wine catalogue containing 178 wines, described through 13 quantitative variables: alcohol, malic acid, ash, alcalinity of ash, magnesium, total phenols, flavanoids, nonflavanoid phenols, proanthocyanins, color intensity, hue, OD280/OD315 of diluted wines, and proline. In practical terms, each row represents one wine and each column captures a measurable chemical characteristic that may help distinguish one wine profile from another.
+* Alcohol - Amount of alcohol in that specific type of wine.
+* Malic acid - Amount of malic acid in that specific type of wine.
+* Ash - Amount of ash in that specific type of wine.
+* Alcalinity of ash - Amount of ash alkalinity in that specific type of wine.
+* Magnesium - Amount of magnesium in that specific type of wine.
+* Total phenols - Amount of phenols in that specific type of wine.
+* Flavanoids - Amount of flavanoids in that specific type of wine.
+* Non-flavanoid phenols - Amount of non-flavanoid phenols in that specific type of wine.
+* Proanthocyanins - Amount of proanthocyanins in that specific type of wine.
+* Color intensity - Level of colour intensity in that specific type of wine.
+* Hue - Hue level in that specific type of wine.
+* OD280/OD315 of diluted wines -Value of diluted wine absorbance in that specific type of wine.
+* Proline - Amount of proline in that specific type of wine.
 
-The project is based on a structured wine catalogue containing 178 wines, described through 13 quantitative variables: alcohol, malic acid, ash, alcalinity of ash, magnesium, total phenols, flavanoids, nonflavanoid phenols, proanthocyanins, color intensity, hue, OD280/OD315 of diluted wines, and proline. In practical terms, each row represents one wine and each column captures a measurable chemical characteristic that may help distinguish one wine profile from another.
-
-### Alcohol
-Amount of alcohol in that specific type of wine.
-
-### Malic acid
-Amount of malic acid in that specific type of wine.
-
-### Ash
-Amount of ash in that specific type of wine.
-
-### Alcalinity of ash
-Amount of ash alkalinity in that specific type of wine.
-
-### Magnesium
-Amount of magnesium in that specific type of wine.
-
-### Total phenols
-Amount of phenols in that specific type of wine.
-
-### Flavanoids
-Amount of flavanoids in that specific type of wine.
-
-### Non-flavanoid phenols
-Amount of non-flavanoid phenols in that specific type of wine.
-
-### Proanthocyanins
-Amount of proanthocyanins in that specific type of wine.
-
-### Color intensity
-Level of colour intensity in that specific type of wine.
-
-### Hue
-Hue level in that specific type of wine.
-
-### OD280/OD315 of diluted wines
-Value of diluted wine absorbance in that specific type of wine.
-
-### Proline
-Amount of proline in that specific type of wine.
 Before modelling, the dataset was reviewed for quality and consistency. The notebook shows that all 13 variables are numeric, the dataset has 178 non-null entries in every column, and no duplicated rows were found. Descriptive statistics were then used to build an initial understanding of the spread, central tendency, and scale differences across variables, which is important because several features originally operated on very different numerical ranges.
 
 To prepare the data for clustering, the variables were normalised using MinMax scaling. This step was necessary because features such as proline and magnesium had much larger raw ranges than variables such as hue or nonflavanoid phenols. Without scaling, the clustering model would tend to overemphasise high-range variables and underweight the rest. After normalisation, all variables were brought onto a comparable 0–1 scale, creating a more reliable basis for segmentation.
